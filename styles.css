@@ -1,2 +1,29 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 
+    /* Styles to make the container visible and force wrapping */
+    height: 200px;
+    width: 250px;
+    border: 3px solid #ccc;
+    background-color: #f4f4f4;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: #90ee90;
+    border: 2px solid #006400;
+    
+    /* Centering text inside items */
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
 /* Your CSS Code here. */
